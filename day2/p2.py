@@ -20,7 +20,7 @@ strategy = {
 }
 
 
-def solution() -> None:
+def solution() -> int:
     with open("day2/input.txt") as f:
         content = f.read()
     lines = content.split("\n")
